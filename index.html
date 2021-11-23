@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn JavaScript</title>
+</head>
+<body>
+
+<h1 id="hello" >JavaScript Can Change HTML content.</h1>
+
+<button type="button" onclick="hey()">Click Me</button>
+
+<br>
+<hr>
+
+
+<button type="button" onclick="bulbOn()">Turn on the light</button>
+
+<img id="myImage" src="./images/pic_bulboff.gif" alt="bulb">
+
+<button type="button" onclick="bulbOff()">Turn off the light</button>
+
+<hr>
+
+<button type="button" onclick="document.getElementById('hello').style.display='none'">Click Me </button>
+<button type="button" onclick="document.getElementById('hello').style.display='block'">Click Me </button>
+
+<h2 id="inner"></h2>
+
+<button type="button" onclick="dw()">Click me</button>
+
+<br>
+<hr>
+
+<button onclick="window.print()">Print this page</button>
+
+
+  <script src="app.js"></script>
+  
+</body>
+</html>
